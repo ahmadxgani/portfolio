@@ -1,9 +1,13 @@
 // main bg-color #4137ff
 // main bg-color-2 #06d6a0
 // main color black
+import { useEffect } from "react";
 import { ReactComponent as Freelancer } from "../Assets/freelancer.svg"
 
+
 export default function Banner() {
+    useEffect(() => document.body.style.overflow = "hidden", [])
+
     return (
         <div className="flex justify-between pt-24">
             <div>
