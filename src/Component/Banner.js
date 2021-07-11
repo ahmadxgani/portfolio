@@ -8,7 +8,7 @@ export default function Banner() {
         <div className="flex justify-between pt-24">
             <div>
                 <div className="relative left-16 font-classic text-3xl top-36">
-                    <h1>Hello<br/>I'm Gani, Young Developer from Indonesian<br/>I've been learning <code>{"<code/>"}</code> for 11 months</h1>
+                    <h1>Hello guys!<br/>I'm Gani, Young Web Dev from Indonesian<br/>I've been learning <code>{"<code/>"}</code> for 11 months</h1>
                 </div>
             </div>
             <div>

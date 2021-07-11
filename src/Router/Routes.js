@@ -1,4 +1,3 @@
-import React from 'react';
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import Navigation from "../Component/Navigation";
 import Banner from "../Component/Banner";
@@ -8,24 +7,16 @@ import Connect from "../Component/Connect";
 
 export default function Routes() {
     return (
-        <React.StrictMode>
-            <Router>
+        <Router>
+            <div class="bg-gray-200">
                 <Navigation/>
                 <Switch>
-                    <Route exact path="/">
-                        <Banner/>
-                    </Route>
-                    <Route exact path="/project">
-                        <Project/>
-                    </Route>
-                    <Route exact path="/connect">
-                        <Connect/>
-                    </Route>
-                    <Route exact path="/about">
-                        <About/>
-                    </Route>
+                    <Route exact path="/" component={Banner} />
+                    <Route exact path="/project" component={Project} />
+                    <Route exact path="/connect" component={Connect} />
+                    <Route exact path="/about" component={About} />
                 </Switch>
-            </Router>
-        </React.StrictMode>
+            </div>
+        </Router>
     )
 }
