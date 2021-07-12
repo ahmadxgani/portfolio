@@ -3,7 +3,7 @@ import { ReactComponent as Js } from "../Assets/react.svg"
 
 export default function About() {
     return (
-        <div className="flex flex-col p-3">
+        <div className="flex flex-col p-3 pt-0">
             <div className="flex justify-between pl-7">
                 <div className="flex flex-col justify-center font-classic text-xl">
                     <p className="mt-4">
