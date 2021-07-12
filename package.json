@@ -13,7 +13,8 @@
     "start": "export BROWSER=google-chrome-stable && craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "deploy": "./deploy.sh"
   },
   "eslintConfig": {
     "extends": [
