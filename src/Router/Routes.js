@@ -8,7 +8,7 @@ import Connect from "../Component/Connect";
 export default function Routes() {
     return (
         <Router>
-            <div class="bg-gray-200">
+            <div className="bg-gray-200">
                 <Navigation/>
                 <Switch>
                     <Route exact path="/" component={Banner} />

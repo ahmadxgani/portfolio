@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
     return (
-        <div className="bg-transparent w-full fixed p-5 z-10">
+        <div className="bg-transparent w-full p-5 z-10">
             <div className="flex justify-between items-center font-classic">
                 <div className="flex justify-between w-32">
                     <NavLink to="/about" activeClassName="font-bold">About</NavLink>

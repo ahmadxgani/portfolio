@@ -8,6 +8,9 @@ module.exports = {
         classic: ['Orienta', 'sans-serif']
       },
     },
+    backgroundColor: () => ({
+       'primary': '#6C63FF',
+    })
   },
   variants: {
     extend: {}
