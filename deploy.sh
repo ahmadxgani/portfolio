@@ -2,5 +2,8 @@
 
 mv ./build/.git ./.temp
 npm run build
-cd ./build && git push && cd ..
 mv ./.temp ./build/.git
+cd ./build
+git add .
+git commit -m "update"
+git push
