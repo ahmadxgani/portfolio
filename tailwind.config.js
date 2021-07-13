@@ -9,7 +9,8 @@ module.exports = {
       },
     },
     backgroundColor: () => ({
-       'primary': '#6C63FF',
+       'primary': '#4137ff',
+       'green': '#06d6a0'
     })
   },
   variants: {
