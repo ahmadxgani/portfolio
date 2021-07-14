@@ -2,8 +2,12 @@ import { useEffect } from "react";
 import { ReactComponent as Freelancer } from "../Assets/freelancer.svg"
 
 export default function Banner() {
-    useEffect(() => document.body.style.overflow = "hidden", [])
+    useEffect(() => {
+        document.body.style.overflow = "hidden"
+        document.title = "My portfolio"
+    }, [])
     useEffect(() => () => document.body.style.overflow = "auto", [])
+
     return (
         <div className="flex justify-center pt-6 px-10">
             <div>

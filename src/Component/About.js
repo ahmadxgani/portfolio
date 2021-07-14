@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import { ReactComponent as Me } from "../Assets/me.svg"
 import { ReactComponent as Js } from "../Assets/react.svg"
 
 export default function About() {
+    useEffect(() => document.title = "About me", [])
+
     return (
         <div className="flex flex-col px-12 pt-6 mb-24">
             <div className="flex justify-between">
