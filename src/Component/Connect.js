@@ -18,7 +18,9 @@ export default function Connect() {
       <div className="flex">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-44 top-7">
-          <Ig className="mt-1" />
+          <a href="https://instagram.com/query.gani" className="mt-1" target="_blank" rel="noreferrer">
+            <Ig />
+          </a>
           <a href="https://instagram.com/query.gani" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             Instagram
           </a>
@@ -27,7 +29,9 @@ export default function Connect() {
       <div className="flex">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-40 top-7">
-          <LinkedIn className="mt-1" />
+          <a href="https://linkedin.com/in/ahmad-gani-70606b215/" className="mt-1" target="_blank" rel="noreferrer">
+            <LinkedIn />
+          </a>
           <a href="https://linkedin.com/in/ahmad-gani-70606b215/" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
@@ -36,7 +40,9 @@ export default function Connect() {
       <div className="flex">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-44 top-7">
-          <Kotakode className="mt-1" />
+          <a href="https://kotakode.com/users/1024/megumin" className="mt-1" target="_blank" rel="noreferrer">
+            <Kotakode />
+          </a>
           <a href="https://kotakode.com/users/1024/megumin" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             Kotakode
           </a>
@@ -45,7 +51,9 @@ export default function Connect() {
       <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-44 top-7">
-          <Telegram className="mt-1" />
+          <a href="https://t.me/shinigamID" className="mt-1" target="_blank" rel="noreferrer">
+            <Telegram />
+          </a>
           <a href="https://t.me/shinigamID" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             Telegram
           </a>
@@ -54,7 +62,9 @@ export default function Connect() {
       <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-40 top-7">
-          <Dc className="mt-1" />
+          <a href="https://discord.com/users/610465246561435668" className="mt-1" target="_blank" rel="noreferrer">
+            <Dc />
+          </a>
           <a href="https://discord.com/users/610465246561435668" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             Discord
           </a>
@@ -63,7 +73,9 @@ export default function Connect() {
       <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-44 top-7">
-          <Fb className="mt-1" />
+          <a href="https://facebook.com/gani.ahmad.35728" className="mt-1" target="_blank" rel="noreferrer">
+            <Fb />
+          </a>
           <a href="https://facebook.com/gani.ahmad.35728" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             Facebook
           </a>
@@ -72,7 +84,9 @@ export default function Connect() {
       <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-40 top-7">
-          <Twitter className="mt-1" />
+          <a href="https://twitter.com/QueryGani" className="mt-1" target="_blank" rel="noreferrer">
+            <Twitter />
+          </a>
           <a href="https://twitter.com/QueryGani" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             Twitter
           </a>
@@ -81,7 +95,9 @@ export default function Connect() {
       <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-40 top-7">
-          <Github className="mt-1" />
+          <a href="https://github.com/query-gani" className="mt-1" target="_blank" rel="noreferrer">
+            <Github />
+          </a>
           <a href="https://github.com/query-gani" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
             Github
           </a>
@@ -90,8 +106,10 @@ export default function Connect() {
       <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-40 top-7">
-          <Gmail className="mt-1" />
-          <a href="mailto:ahmadxgani01@gmail.com" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
+          <a href="mailto:ahmadxgani01@gmail.com" className="mt-1">
+            <Gmail />
+          </a>
+          <a href="mailto:ahmadxgani01@gmail.com" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11">
             Gmail
           </a>
         </div>
