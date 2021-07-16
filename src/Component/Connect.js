@@ -14,8 +14,8 @@ export default function Connect() {
   useEffect(() => (document.title = "Connect with me"), [])
 
   return (
-    <div className="flex flex-wrap pt-6 text-lg font-classic w-11/12 mx-auto justify-center">
-      <div className="flex">
+    <div className="flex flex-wrap text-lg font-classic w-11/12 mx-auto justify-center">
+      <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-44 top-7">
           <a href="https://instagram.com/query.gani" className="mt-1" target="_blank" rel="noreferrer">
@@ -26,7 +26,7 @@ export default function Connect() {
           </a>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-40 top-7">
           <a href="https://linkedin.com/in/ahmad-gani-70606b215/" className="mt-1" target="_blank" rel="noreferrer">
@@ -37,7 +37,7 @@ export default function Connect() {
           </a>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex mt-12">
         <Blobs />
         <div className="flex flex-col text-center items-center relative right-44 top-7">
           <a href="https://kotakode.com/users/1024/megumin" className="mt-1" target="_blank" rel="noreferrer">
