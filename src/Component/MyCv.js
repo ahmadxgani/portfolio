@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 
 export default function Project() {
-  useEffect(() => (document.title = "My projects"), [])
+  useEffect(() => (document.title = "My portfolio | CV"), [])
 
   return (
     <div className="absolute w-full h-full flex">

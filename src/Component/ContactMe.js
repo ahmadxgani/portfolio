@@ -11,7 +11,7 @@ import { ReactComponent as Github } from "../Assets/github.svg"
 import { ReactComponent as Gmail } from "../Assets/gmail.svg"
 
 export default function ContactMe() {
-  useEffect(() => (document.title = "Connect with me"), [])
+  useEffect(() => (document.title = "My portfolio | Connect with me"), [])
 
   return (
     <div className="flex flex-wrap text-lg font-classic w-11/12 mx-auto justify-center">
