@@ -1,8 +1,8 @@
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom"
 import Navigation from "../Component/Navigation"
 import Home from "../Component/Home"
-import Project from "../Component/MyCv"
-import Connect from "../Component/Connect"
+import MyCv from "../Component/MyCv"
+import ContactMe from "../Component/ContactMe"
 
 export default function Routes() {
   return (
@@ -11,8 +11,8 @@ export default function Routes() {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/project" component={Project} />
-          <Route exact path="/connect" component={Connect} />
+          <Route exact path="/mycv" component={MyCv} />
+          <Route exact path="/ContactMe" component={ContactMe} />
         </Switch>
       </div>
     </Router>
