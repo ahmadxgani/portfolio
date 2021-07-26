@@ -12,13 +12,12 @@ import { ReactComponent as Gmail } from "../Assets/gmail.svg"
 
 export default function ContactMe() {
   useEffect(() => (document.title = "My portfolio | Connect with me"), [])
-
   return (
-    <div className="flex flex-wrap text-lg font-classic w-11/12 mx-auto justify-center">
-      <div className="flex mt-12">
+    <div className="flex flex-wrap text-lg font-classic m-10 justify-center gap-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-44 top-7">
-          <a href="https://instagram.com/query.gani" className="mt-1" target="_blank" rel="noreferrer">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-8 gap-1">
+          <a href="https://instagram.com/query.gani" target="_blank" rel="noreferrer">
             <Ig />
           </a>
           <a href="https://instagram.com/query.gani" className="p-3 bg-primary text-gray-100 rounded-2xl mt-11" target="_blank" rel="noreferrer">
@@ -26,9 +25,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-40 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="https://linkedin.com/in/ahmad-gani-70606b215/" className="mt-1" target="_blank" rel="noreferrer">
             <LinkedIn />
           </a>
@@ -37,9 +36,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-44 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="https://kotakode.com/users/1024/megumin" className="mt-1" target="_blank" rel="noreferrer">
             <Kotakode />
           </a>
@@ -48,9 +47,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-44 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="https://t.me/shinigamID" className="mt-1" target="_blank" rel="noreferrer">
             <Telegram />
           </a>
@@ -59,9 +58,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-40 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="https://discord.com/users/610465246561435668" className="mt-1" target="_blank" rel="noreferrer">
             <Dc />
           </a>
@@ -70,9 +69,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-44 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="https://facebook.com/gani.ahmad.35728" className="mt-1" target="_blank" rel="noreferrer">
             <Fb />
           </a>
@@ -81,9 +80,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-40 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="https://twitter.com/QueryGani" className="mt-1" target="_blank" rel="noreferrer">
             <Twitter />
           </a>
@@ -92,9 +91,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-40 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="https://github.com/query-gani" className="mt-1" target="_blank" rel="noreferrer">
             <Github />
           </a>
@@ -103,9 +102,9 @@ export default function ContactMe() {
           </a>
         </div>
       </div>
-      <div className="flex mt-12">
+      <div className="relative">
         <Blobs />
-        <div className="flex flex-col text-center items-center relative right-40 top-7">
+        <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-7 gap-1">
           <a href="mailto:ahmadxgani01@gmail.com" className="mt-1">
             <Gmail />
           </a>

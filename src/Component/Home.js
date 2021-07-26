@@ -9,7 +9,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="flex flex-col pb-24 pt-6 px-10 gap-5">
+    <div className="flex flex-col m-10 gap-5">
       <Banner />
       <About />
     </div>
