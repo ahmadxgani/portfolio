@@ -5,7 +5,9 @@ export default function Project() {
 
   return (
     <div className="absolute w-full h-full flex">
-      <p className="m-auto">My CV Page</p>
+      <p className="m-auto text-center">
+        Halaman Belum jadi <br /> <small>mohon maaf bila website tidak responsive, karna masih dalam tahap pengembangan</small>
+      </p>
     </div>
   )
 }
