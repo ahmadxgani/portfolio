@@ -3,16 +3,24 @@ import { ReactComponent as Freelancer } from "../Assets/freelancer.svg"
 import { ReactComponent as Me } from "../Assets/me.svg"
 import { ReactComponent as Js } from "../Assets/react.svg"
 
-export default function Banner() {
+export default function Home() {
   useEffect(() => {
     document.title = "My portfolio | Home page"
   }, [])
-  useEffect(() => () => (document.body.style.overflow = "auto"), [])
 
   return (
-    <div className="flex justify-center pt-6 px-10">
-      <div>
-        <div className="relative -left-5 font-classic text-2xl top-36">
+    <div className="flex flex-col pb-24 pt-6 px-10 gap-5">
+      <Banner />
+      <About />
+    </div>
+  )
+}
+
+function Banner() {
+  return (
+    <div className="flex justify-between border-b pb-1">
+      <div className="self-center">
+        <div className="font-classic text-2xl">
           <h1>
             Hello guys!
             <br />
@@ -38,7 +46,7 @@ export default function Banner() {
 
 function About() {
   return (
-    <div className="flex flex-col px-12 pt-6 mb-24">
+    <div className="border-b pb-1">
       <div className="flex justify-between">
         <div className="flex flex-col justify-center font-classic text-lg">
           <p className="mt-4">
@@ -67,15 +75,15 @@ function About() {
 
       <div className="flex justify-between pt-14">
         <Js />
-        <div className="flex flex-col justify-center font-classic text-lg pr-11">
-          <p className="mt-4">
+        <div className="flex flex-col justify-center font-classic text-lg pr-11 gap-4">
+          <p>
             also the programming language that
             <br />
             I like right now is javascript, because it's easy
             <br />
             to understand unlike women ^_^
           </p>
-          <p className="mt-4">
+          <p>
             I'm currently working on a project
             <br />
             called fuchsinia, this project contains
@@ -86,8 +94,8 @@ function About() {
             <br />
             as the frontend application
           </p>
-          <p className="mt-4">I'm working on this project together with my friend, arya</p>
-          <a href="mailto:ahmadxgani01@gmail.com" className="p-4 top-14 relative bg-primary text-gray-100 rounded-3xl self-center">
+          <p>I'm working on this project together with my friend, arya</p>
+          <a href="mailto:ahmadxgani01@gmail.com" className="p-4 bg-primary text-gray-100 rounded-3xl self-center my-1">
             Contact Me
           </a>
         </div>
