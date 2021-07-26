@@ -1,6 +1,6 @@
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom"
 import Navigation from "../Component/Navigation"
-import Banner from "../Component/Banner"
+import Home from "../Component/Home"
 import About from "../Component/About"
 import Project from "../Component/MyCv"
 import Connect from "../Component/Connect"
@@ -11,7 +11,7 @@ export default function Routes() {
       <div className="bg-gray-200">
         <Navigation />
         <Switch>
-          <Route exact path="/" component={Banner} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/project" component={Project} />
           <Route exact path="/connect" component={Connect} />
           <Route exact path="/about" component={About} />

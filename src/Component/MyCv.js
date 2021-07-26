@@ -1,5 +1,3 @@
-// import { ReactComponent as Computer } from "../Assets/computer.svg"
-
 import { useEffect } from "react"
 
 export default function Project() {
