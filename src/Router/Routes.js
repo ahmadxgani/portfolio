@@ -2,7 +2,7 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom"
 import Navigation from "../Component/Navigation"
 import Banner from "../Component/Banner"
 import About from "../Component/About"
-import Project from "../Component/Project"
+import Project from "../Component/MyCv"
 import Connect from "../Component/Connect"
 
 export default function Routes() {
