@@ -13,7 +13,7 @@ import { ReactComponent as Gmail } from "../Assets/gmail.svg"
 export default function ContactMe() {
   useEffect(() => (document.title = "My portfolio | Connect with me"), [])
   return (
-    <div className="flex flex-wrap text-lg font-classic m-10 justify-center gap-12">
+    <div className="flex flex-wrap text-lg font-classic p-10 justify-center gap-12">
       <div className="relative">
         <Blobs />
         <div className="flex flex-col text-center items-center absolute top-0 right-0 left-0 p-8 gap-1">

@@ -9,7 +9,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="flex flex-col m-10 gap-5">
+    <div className="flex flex-col p-10 gap-5">
       <Banner />
       <About />
     </div>
@@ -18,9 +18,9 @@ export default function Home() {
 
 function Banner() {
   return (
-    <div className="flex justify-between border-b pb-1">
+    <div className="flex lg:flex-row md:gap-0 gap-5 flex-col-reverse justify-between border-b pb-1">
       <div className="self-center">
-        <div className="font-classic text-2xl">
+        <div className="font-classic lg:text-2xl md:text-xl text-lg">
           <h1>
             Hello guys!
             <br />
@@ -32,13 +32,13 @@ function Banner() {
             </small>{" "}
             for 11 months
           </h1>
-          <a href="mailto:ahmadxgani01@gmail.com" className="p-4 top-14 relative bg-primary text-gray-100 rounded-3xl">
+          <a href="mailto:ahmadxgani01@gmail.com" className="lg:p-4 p-2 lg:mt-14 mt-5 inline-block bg-primary text-gray-100 rounded-3xl">
             Hire me
           </a>
         </div>
       </div>
-      <div>
-        <Freelancer />
+      <div className="lg:self-auto self-center">
+        <Freelancer className="w-56 h-46 lg:w-auto lg:h-auto" />
       </div>
     </div>
   )
