@@ -11,8 +11,8 @@ export default function Routes() {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/mycv" component={MyCv} />
-          <Route exact path="/ContactMe" component={ContactMe} />
+          <Route exact path="/cv" component={MyCv} />
+          <Route exact path="/contact" component={ContactMe} />
         </Switch>
       </div>
     </Router>

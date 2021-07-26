@@ -10,7 +10,7 @@ import { ReactComponent as Twitter } from "../Assets/twitter.svg"
 import { ReactComponent as Github } from "../Assets/github.svg"
 import { ReactComponent as Gmail } from "../Assets/gmail.svg"
 
-export default function Connect() {
+export default function ContactMe() {
   useEffect(() => (document.title = "Connect with me"), [])
 
   return (

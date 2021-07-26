@@ -8,10 +8,10 @@ export default function Navigation() {
           Homepage
         </NavLink>
         <div className="flex justify-between gap-5">
-          <NavLink to="/project" activeClassName="font-semibold">
+          <NavLink to="/cv" activeClassName="font-semibold">
             My CV
           </NavLink>
-          <NavLink to="/connect" activeClassName="font-semibold">
+          <NavLink to="/contact" activeClassName="font-semibold">
             Contact me
           </NavLink>
         </div>
