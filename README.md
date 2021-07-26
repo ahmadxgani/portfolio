@@ -1,1 +1,1 @@
-# Source of my [portfolio website](https://query-gani.github.io)
+# Source of my [portfolio website](https://github.com/QUERY-GANI/query-gani.github.io)
