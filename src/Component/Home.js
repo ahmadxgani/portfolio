@@ -3,6 +3,10 @@ import { ReactComponent as Freelancer } from "../Assets/freelancer.svg"
 import { ReactComponent as Me } from "../Assets/me.svg"
 import { ReactComponent as Js } from "../Assets/react.svg"
 
+const start = new Date(1596254354021)
+const now = new Date()
+const experience = Math.round((now - start) / (1000 * 60 * 60 * 24 * 30 * 12))
+
 export default function Home() {
   useEffect(() => {
     document.title = "My portfolio | Home page"
@@ -22,15 +26,13 @@ function Banner() {
       <div className="self-center">
         <div className="font-classic lg:text-2xl md:text-xl text-lg">
           <h1>
-            Hello guys!
-            <br />
-            I'm Gani, Young Developer from ID
-            <br />
-            I've been learning{" "}
+            Hello guys! I'm Gani,
+            <br className="md:block hidden" /> Young Developer from ID.
+            <br className="md:block hidden" /> I've been learning{" "}
             <small>
               <code>{"<code/>"}</code>
             </small>{" "}
-            for 11 months
+            for {experience} year.
           </h1>
           <a href="mailto:ahmadxgani01@gmail.com" className="lg:p-4 p-2 lg:mt-14 mt-5 inline-block bg-primary text-gray-100 rounded-3xl">
             Hire me
@@ -51,7 +53,7 @@ function About() {
         <div className="flex flex-col justify-center font-classic lg:text-lg md:text-base text-sm gap-4">
           <div>
             I’m a web developer with 15 y.o and
-            <br className="md:block hidden" /> 11 months of experience starting in August
+            <br className="md:block hidden" /> {experience} year of experience starting in August
             <br className="md:block hidden" /> 2020, at that time I was interested in seeing
             <br className="md:block hidden" /> my brother create a website, that's where I became
             <br className="md:block hidden" /> interested in becoming a web developer
@@ -76,12 +78,11 @@ function About() {
           </div>
           <div>
             I'm currently working on a project
-            <br className="md:block hidden" /> called fuchsinia, this project contains
-            <br className="md:block hidden" /> an online store built by the nestjs framework
-            <br className="md:block hidden" /> as the backend application and the reactjs library
-            <br className="md:block hidden" /> as the frontend application
+            <br className="md:block hidden" /> called <q>writer</q>, this project provides a feature
+            <br className="md:block hidden" /> to write articles for users, and also this project
+            <br className="md:block hidden" /> is built with nestjs framework as the backend application
+            <br className="md:block hidden" /> and the nextjs framework as the frontend application
           </div>
-          <p>I'm working on this project together with my friend, arya</p>
           <a href="mailto:ahmadxgani01@gmail.com" className="lg:p-4 p-2 bg-primary text-gray-100 rounded-3xl self-center my-1">
             Contact Me
           </a>
