@@ -74,7 +74,7 @@ function About() {
           <div>
             also the programming language that
             <br className="md:block hidden" /> I like right now is javascript, because it's easy
-            <br className="md:block hidden" /> to understand unlike women ^_^
+            <br className="md:block hidden" /> to be understood not like when understanding women ^_^
           </div>
           <div>
             I'm currently working on a project
