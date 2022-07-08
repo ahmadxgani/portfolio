@@ -10,11 +10,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "export BROWSER=google-chrome-stable && craco start",
+    "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "deploy": "./deploy.sh"
+    "deploy": "sh deploy.sh"
   },
   "eslintConfig": {
     "extends": [
